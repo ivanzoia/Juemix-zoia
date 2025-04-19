@@ -2,12 +2,13 @@
     margin: 0;
     font-family: "Inter", sans-serif;
 }
-h1{ background-color: #f2059f;
-}
 .menu ul li a{ 
     text-decoration: none;
     color: #1b8181a4;
-
+}
+header div a img {
+    width: 100%;
+    background-color: #f2059f;
 }
 .descripciones{
     background-color: #000000;
@@ -63,7 +64,7 @@ h2{
 
 .buscador{
     display: flex;
-    background-color: #808080;
+    background-color:  #f2e205;
     width: 30%;
     padding: 20px;
     justify-content: center;
@@ -162,4 +163,10 @@ h2{
 .maps{
     display: flex;
     justify-content: center;
+}
+.accordion-button{
+background-color: #d18d8d;
+}
+.accordion{
+    width: 75%;
 }

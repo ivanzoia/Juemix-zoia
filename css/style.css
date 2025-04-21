@@ -2,6 +2,9 @@
     margin: 0;
     font-family: "Inter", sans-serif;
 }
+.bgpagina{
+    background-color: #f5deb3;
+}
 .descripciones{
     display: flex;
     background-color: #000000;
@@ -59,36 +62,13 @@ h2{
     font-size: 3em;
     font-style: inherit;
     text-align: center;
-
-}
-.footer {
-    background-color: #778899;
-}
-.footer p{
-    font-size: 2em;
-    font-weight: bold;
-    margin: 2px 2px;
-}
-.foot li a{
-    text-decoration: none;
-    list-style: none;
-    color: #ffffff;
 }
 .pf{
-    width: 100%;
     display: flex;
     flex-direction: column;
     background-image: url(../assets/fondo\ productos.png);
     background-size: cover;
       
-}
-.respuestas{
-    background-color: #ff7f50;
-    border: solid;
-    border-radius: 2px;
-}
-.respuestas p{
-    font-size: 0,5em;
 }
 .encabezado_pf{
     font-size: 2em;
@@ -101,8 +81,7 @@ h2{
     margin: 2px 2px;
     padding: 2px;
 }
-.contacto{
-    width: 100%;
+.bg-img{
     background-image: url(../assets/fondo\ productos.png);
     background-size: 100%;
 }
@@ -116,19 +95,61 @@ h2{
 .maps{
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 .accordion-button{
 background-color: #d18d8d;
 }
-.accordion{
-    width: 75%;
-}
 .descripciones{
     display: flex;
+}
+.slide{
+    margin-top: 20px;
 }
 .slide img {
    height: 70vh;
 }
 .bg-zoia{
     background-color: #05c7f2;
+}
+.bg-zm{
+    background-color: #ce2d93;
+}
+.bg-za{
+    background-color: #ffff00;
+}
+.foo{
+    display: flex;
+    background-color: #2f4f4f;
+    justify-content: space-evenly;
+}
+.pie1 a img{
+    width: 130px;
+    height: 75px;
+    margin: 15px;
+}
+.pieart{
+    width: 70%;
+    margin: 5px;
+}
+.pieul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    
+}
+.pieul li a{
+    text-decoration: none;
+    color: #dda0dd;
+}
+.row{
+    margin
+}
+video{
+    height: 100%;
+}
+.bg-zv{
+    background-color: rgb(210, 96, 214);
 }

@@ -144,12 +144,15 @@ background-color: #d18d8d;
     text-decoration: none;
     color: #dda0dd;
 }
-.row{
-    margin
-}
-video{
-    height: 100%;
-}
 .bg-zv{
     background-color: #d260d6;
 }
+@media (max-width: 768px){
+    .foo{
+        flex-direction: column;
+    }
+        .pieul{
+            flex-direction: column;
+        }
+
+    }
